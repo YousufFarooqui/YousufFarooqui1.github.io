@@ -12,7 +12,7 @@ function setup() {
   soundFormats("mp3");
   mySound = loadSound("assets/energy.mp3");
   img = loadImage("download (1).png");
-  let img2 = loadImage("enemy1.png");
+  let img2 = loadImage("enemy.png");
 
   hero = new Mover(img);
   force = createVector(-0.01, 0);
